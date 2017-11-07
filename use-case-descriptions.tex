@@ -14,37 +14,300 @@
 
 \maketitle
 
-\newcommand{\usecasetable}[1]{%
-    \mathbb{#1}
+\newcommand{\notapplicable}{%
+\begin{center} --- \end{center}
 }
+
+\section*{Browse booked services}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & browse booked services \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item press ``my bookings'' button in the top right corner of the main webpage
+	    \item select a booking from the list
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item being logged in
+	    \item having an account
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Modify a booking}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & modify a booking \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item browse booked services
+	    \item press the yello ``modify'' button next to a booking
+	    \item change time or date by selecting from a dropdown
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item being logged in
+	    \item having made a booking
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Cancel a booking}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & cancel a booking \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item browse booked services
+	    \item press the yello ``modify'' button next to a booking
+	    \item press the red ``cancel'' button
+	    \item read a confirmation message asking whether you really want to do it
+	    \item confirm by pressing ``yes''
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item being logged in
+	    \item having made a booking
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
 
 \section*{Pay using prefrered method}
 
 \begin{center}
     \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
 	\hline
-	Use case name & Pay using prefrered method \\ 
+	Use case name & pay using prefrered method \\ 
 	\hline
-	Participating actors & User \\
+	Participating actors & user \\
 	\hline
 	Flow of events: Normal flow & 
 	\begin{enumerate}		
-	    \item Incididunt nostrud exercitation ullamco laboris consequat.
-	    \item Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	    \item chose whether to pay using a debit or credit card or pay using bank transfer by clicking on the appropriate button
+	    \item input personal details and credentials
+	    \item press ``confirm'' to send the money
 	\end{enumerate}	\\
 	\hline
-	Flow of events: Alternative flow &
-	\begin{enumerate}		
-	    \item Incididunt nostrud exercitation ullamco laboris consequat.
-	    \item Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	\end{enumerate}	\\
+	Flow of events: Alternative flow & \notapplicable \\
 	\hline
 	Pre-condition & 
-	    \begin{itemize} 
-		\item Having chosen to book, modify or cancel a booking. 
-	    \end{itemize} \\
+	\begin{itemize} 
+	    \item having a bank account
+	    \item being logged in
+	    \item having chosen to book, modify or cancel a booking
+	\end{itemize} \\
 	\hline
-	Post-condition & --- \\
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Browse the available services}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & browse the available services \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item navigate to the main website
+	    \item press the ``Services'' button
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item having internet connection
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+
+\section*{Browse the forum (read posts)}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & browse the forum (read posts) \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item navigate to the main website
+	    \item press the ``Forum'' button
+	    \item press on any of the post subjects
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item having internet connection
+	    \item being logged in
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Reply to posts}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & reply to posts \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item browse the forum
+	    \item select a post
+	    \item press on the ``reply'' button below a post
+	    \item enter message
+	    \item confirm by pressing ``submit''
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item being logged in
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Create an account (register)}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & create an account (register) \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item navigate to the main website
+	    \item press the ``Register'' button
+	    \item enter personal details
+	    \item confirm by pressing ``submit''
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item having internet connection
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Log in}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & log in \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item navigate to the main website
+	    \item press the ``log in'' button
+	    \item select prefrered authentication method by clicking either ``Facebook'' or ``Google''.
+	    \item enter credentials
+	    \item confirm by pressing ``log in''
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item having internet connection
+	    \item having an account
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Finding what services are available}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & finding what services are available \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item press the ``find services'' button in the main navbar
+	    \item select desired time and day from a dropdown
+	    \item confirm by pressing the ``confirm'' button
+	    \item scroll down to find a service
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item being logged in
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\
 	\hline
     \end{tabular}
 \end{center}
