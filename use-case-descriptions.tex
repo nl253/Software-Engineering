@@ -18,6 +18,65 @@
 \begin{center} --- \end{center}
 }
 
+\section*{Authenticate a user (Facebook or Google etc.)}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & Authenticate a suer \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item press ``my bookings'' button in the top right corner of
+		the main webpage
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item create an account (register)
+	    \item log in
+	\end{itemize} \\
+	\hline
+	Post-condition & \notapplicable \\ 
+	\hline
+    \end{tabular}
+\end{center}
+
+\section*{Make a booking}
+
+\begin{center}
+    \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
+	\hline
+	Use case name & make a booking \\ 
+	\hline
+	Participating actors & user \\
+	\hline
+	Flow of events: Normal flow & 
+	\begin{enumerate}		
+	    \item press ``my bookings'' button in the top right corner of
+		the main webpage
+	\end{enumerate}	\\
+	\hline
+	Flow of events: Alternative flow & \notapplicable \\
+	\hline
+	Pre-condition & 
+	\begin{itemize} 
+	    \item log in
+	    \item create an account (register)
+	\end{itemize} \\
+	\hline
+	Post-condition & 
+	\begin{itemize} 
+	    \item pay using prefrered method
+	\end{itemize} \\ 
+	\hline
+    \end{tabular}
+\end{center}
+
 \section*{Browse booked services}
 
 \begin{center}
@@ -37,8 +96,9 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item being logged in
-	    \item having an account
+	    \item create an account (register)
+	    \item log in
+	    \item make a booking
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -66,8 +126,10 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item being logged in
-	    \item having made a booking
+	    \item create an account (register)
+	    \item log in
+	    \item make a booking
+	    \item browse services
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -87,7 +149,7 @@
 	Flow of events: Normal flow & 
 	\begin{enumerate}		
 	    \item browse booked services
-	    \item press the yello ``modify'' button next to a booking
+	    \item press the yellow ``modify'' button next to a booking
 	    \item press the red ``cancel'' button
 	    \item read a confirmation message asking whether you really want to do it
 	    \item confirm by pressing ``yes''
@@ -97,21 +159,26 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item being logged in
-	    \item having made a booking
+	    \item create an account (register)
+	    \item log in
+	    \item browse booked services
+	    \item make a booking
 	\end{itemize} \\
 	\hline
-	Post-condition & \notapplicable \\
+	Post-condition & 
+	\begin{itemize} 
+	    \item pay
+	\end{itemize} \\
 	\hline
     \end{tabular}
 \end{center}
 
-\section*{Pay using prefrered method}
+\section*{Pay using preferred method}
 
 \begin{center}
     \begin{tabular}{| >{\bf}l | p{5.55cm} |} 
 	\hline
-	Use case name & pay using prefrered method \\ 
+	Use case name & pay using preferred method \\ 
 	\hline
 	Participating actors & user \\
 	\hline
@@ -126,9 +193,10 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item having a bank account
-	    \item being logged in
-	    \item having chosen to book, modify or cancel a booking
+	    \item create an account (register)
+	    \item log in
+	    \item browse booked services
+	    \item make a booking or modify a booking or cancel a booking
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -155,7 +223,8 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item having internet connection
+	    \item create an account (register)
+	    \item log in
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -184,8 +253,8 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item having internet connection
-	    \item being logged in
+	    \item create an account (register)
+	    \item log in
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -215,7 +284,9 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item being logged in
+	    \item browse the forum (read posts)
+	    \item create an account (register)
+	    \item log in
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
@@ -242,10 +313,7 @@
 	\hline
 	Flow of events: Alternative flow & \notapplicable \\
 	\hline
-	Pre-condition & 
-	\begin{itemize} 
-	    \item having internet connection
-	\end{itemize} \\
+	Pre-condition & \notapplicable \\
 	\hline
 	Post-condition & \notapplicable \\
 	\hline
@@ -265,7 +333,7 @@
 	\begin{enumerate}		
 	    \item navigate to the main website
 	    \item press the ``log in'' button
-	    \item select prefrered authentication method by clicking either ``Facebook'' or ``Google''.
+	    \item select preferred authentication method by clicking either ``Facebook'' or ``Google''.
 	    \item enter credentials
 	    \item confirm by pressing ``log in''
 	\end{enumerate}	\\
@@ -274,8 +342,7 @@
 	\hline
 	Pre-condition & 
 	\begin{itemize} 
-	    \item having internet connection
-	    \item having an account
+	    \item create an account (register)
 	\end{itemize} \\
 	\hline
 	Post-condition & \notapplicable \\
