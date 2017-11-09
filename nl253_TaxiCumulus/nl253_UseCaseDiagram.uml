@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qa57kMOUEeefZct4e10tWw" name="nl253_TaxiCumulus">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qjCj4MOUEeefZct4e10tWw" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_SgkM4MOVEeefZct4e10tWw" name="Premium Customer"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_UipZYMOVEeefZct4e10tWw" name="TaxiCumulus">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lTSsEMOVEeefZct4e10tWw" name="log in using prefered auth method">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8BvZ8MOVEeefZct4e10tWw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Sq274MOWEeefZct4e10tWw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VmbVIMOWEeefZct4e10tWw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZPJP4MVlEees7MOKKEy7ww" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iKumoMVsEees7MOKKEy7ww" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wWzc0MOVEeefZct4e10tWw" name="browse services"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0WnhUMOVEeefZct4e10tWw" name="find available services">
+      <extend xmi:type="uml:Extend" xmi:id="_VmauEMOWEeefZct4e10tWw" extendedCase="_lTSsEMOVEeefZct4e10tWw" extensionLocation="_VmbVIMOWEeefZct4e10tWw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZR1P4MOWEeefZct4e10tWw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bqrWkMOWEeefZct4e10tWw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-wFPgMOVEeefZct4e10tWw" name="preview booked services">
+      <extend xmi:type="uml:Extend" xmi:id="_Sq2U0MOWEeefZct4e10tWw" extendedCase="_XmOpsMOWEeefZct4e10tWw" extensionLocation="_Sq274MOWEeefZct4e10tWw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XmOpsMOWEeefZct4e10tWw" name="Book">
+      <extend xmi:type="uml:Extend" xmi:id="_ZR0BwMOWEeefZct4e10tWw" extendedCase="_0WnhUMOVEeefZct4e10tWw" extensionLocation="_ZR1P4MOWEeefZct4e10tWw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rt5ikMOWEeefZct4e10tWw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6_hoMOWEeefZct4e10tWw" name="Modify / Cancel">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rC6E0MOWEeefZct4e10tWw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_W-pFgMVoEees7MOKKEy7ww" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_UcpC0MVoEees7MOKKEy7ww" addition="_-wFPgMOVEeefZct4e10tWw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iE0vgMOWEeefZct4e10tWw" name="pay using prefered payment method">
+      <extend xmi:type="uml:Extend" xmi:id="_rt47gMOWEeefZct4e10tWw" extendedCase="_XmOpsMOWEeefZct4e10tWw" extensionLocation="_rt5ikMOWEeefZct4e10tWw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_W-oecMVoEees7MOKKEy7ww" extendedCase="_Z6_hoMOWEeefZct4e10tWw" extensionLocation="_W-pFgMVoEees7MOKKEy7ww"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VnMxcMVoEees7MOKKEy7ww" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fD4xgMVsEees7MOKKEy7ww" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ta7FEMOWEeefZct4e10tWw" name="access a forum">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_BtEvoMOXEeefZct4e10tWw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_J14p0MOXEeefZct4e10tWw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ME2bwMOXEeefZct4e10tWw" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4ZRpAMOWEeefZct4e10tWw" name="make posts">
+      <include xmi:type="uml:Include" xmi:id="_ELOp0MVoEees7MOKKEy7ww" addition="_ta7FEMOWEeefZct4e10tWw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_C5xzUMOXEeefZct4e10tWw" name="read posts">
+      <include xmi:type="uml:Include" xmi:id="_AcH60MVoEees7MOKKEy7ww" addition="_ta7FEMOWEeefZct4e10tWw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EuG3sMOXEeefZct4e10tWw" name="reply to posts">
+      <include xmi:type="uml:Include" xmi:id="_CZLdYMVoEees7MOKKEy7ww" addition="_ta7FEMOWEeefZct4e10tWw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SOOx4MVlEees7MOKKEy7ww" name="Reset password">
+      <extend xmi:type="uml:Extend" xmi:id="_ZPGzoMVlEees7MOKKEy7ww" extendedCase="_lTSsEMOVEeefZct4e10tWw" extensionLocation="_ZPJP4MVlEees7MOKKEy7ww"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fXtwoMVlEees7MOKKEy7ww" name="authenticate a user">
+      <extend xmi:type="uml:Extend" xmi:id="_iKt_kMVsEees7MOKKEy7ww" extendedCase="_lTSsEMOVEeefZct4e10tWw" extensionLocation="_iKumoMVsEees7MOKKEy7ww"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_C-udoMVsEees7MOKKEy7ww" name="receive transaction confirmation">
+      <extend xmi:type="uml:Extend" xmi:id="_fD4KcMVsEees7MOKKEy7ww" extendedCase="_iE0vgMOWEeefZct4e10tWw" extensionLocation="_fD4xgMVsEees7MOKKEy7ww"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Nis24MVlEees7MOKKEy7ww" name="3rd party authentication company (Facebook / Google etc)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kEPxMMVlEees7MOKKEy7ww"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2yZSYMVlEees7MOKKEy7ww"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4LOtkMVlEees7MOKKEy7ww"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5fZEIMVlEees7MOKKEy7ww"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yuUcIMVpEees7MOKKEy7ww" name="Free Cusomer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vA9HoMVrEees7MOKKEy7ww" memberEnd="_vA-VwcVrEees7MOKKEy7ww _vA_j4MVrEees7MOKKEy7ww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vA9usMVrEees7MOKKEy7ww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vA-VwMVrEees7MOKKEy7ww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vA-VwcVrEees7MOKKEy7ww" name="free cusomer" type="_yuUcIMVpEees7MOKKEy7ww" association="_vA9HoMVrEees7MOKKEy7ww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vA_j4MVrEees7MOKKEy7ww" name="browse services" type="_wWzc0MOVEeefZct4e10tWw" association="_vA9HoMVrEees7MOKKEy7ww"/>
+  </packagedElement>
+</uml:Model>
