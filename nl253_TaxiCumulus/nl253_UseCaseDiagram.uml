@@ -178,7 +178,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_i-W44sxEEeeKpulby7E2Eg" name="find available services" type="_0WnhUMOVEeefZct4e10tWw" association="_i-WR0MxEEeeKpulby7E2Eg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_i-W448xEEeeKpulby7E2Eg" type="_SgkM4MOVEeefZct4e10tWw" association="_i-WR0MxEEeeKpulby7E2Eg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_9LEZMMxLEeeKpulby7E2Eg" name="User"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9LEZMMxLEeeKpulby7E2Eg" name="User">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Yae7Y8xNEeeKpulby7E2Eg" name="website" type="_QSm1UMxNEeeKpulby7E2Eg" association="_Yae7YMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Yae7ZMxNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Yae7ZcxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_-PzzsMxLEeeKpulby7E2Eg" name="Premium User">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_toiqA8xMEeeKpulby7E2Eg" name="forum" type="_h8ergMxMEeeKpulby7E2Eg" association="_toiqAMxMEeeKpulby7E2Eg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tonigMxMEeeKpulby7E2Eg"/>
@@ -193,14 +198,28 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BylhccxNEeeKpulby7E2Eg" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="__a678MxLEeeKpulby7E2Eg" name="Database"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__a678MxLEeeKpulby7E2Eg" name="Database">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oUFRUsxNEeeKpulby7E2Eg" name="post" type="_ilArIMxMEeeKpulby7E2Eg" association="_oUEqQMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oUFRU8xNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oUFRVMxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p8Nsw8xNEeeKpulby7E2Eg" name="user" type="_9LEZMMxLEeeKpulby7E2Eg" association="_p8NswMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p8OT0MxNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p8OT0cxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_CoXvYMxMEeeKpulby7E2Eg" name="Google"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_SgNKwMxMEeeKpulby7E2Eg" client="_-PzzsMxLEeeKpulby7E2Eg" supplier="_9LEZMMxLEeeKpulby7E2Eg"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_YnWvMMxMEeeKpulby7E2Eg" name="Facebook"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_a5PSQMxMEeeKpulby7E2Eg" name="Authentication Service"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_dljHgMxMEeeKpulby7E2Eg" client="_CoXvYMxMEeeKpulby7E2Eg" supplier="_qa57kMOUEeefZct4e10tWw"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_ghq6YMxMEeeKpulby7E2Eg" client="_YnWvMMxMEeeKpulby7E2Eg" supplier="_qa57kMOUEeefZct4e10tWw"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_h8ergMxMEeeKpulby7E2Eg" name="Forum"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_h8ergMxMEeeKpulby7E2Eg" name="Forum">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nGuGU8xNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_nGuGUMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nGutYMxNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nGutYcxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ilArIMxMEeeKpulby7E2Eg" name="Post"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_jnFzMMxMEeeKpulby7E2Eg" name="Booking"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_toiqAMxMEeeKpulby7E2Eg" memberEnd="_toiqA8xMEeeKpulby7E2Eg _toowoMxMEeeKpulby7E2Eg">
@@ -220,5 +239,41 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Byk6YsxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_BylhcsxNEeeKpulby7E2Eg" name="premium user" type="_-PzzsMxLEeeKpulby7E2Eg" association="_Byk6YMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QSm1UMxNEeeKpulby7E2Eg" name="Website">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kkZ6ksxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_kkZTgMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kkZ6k8xNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kkZ6lMxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Yae7YMxNEeeKpulby7E2Eg" memberEnd="_Yae7Y8xNEeeKpulby7E2Eg _YaficMxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yae7YcxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yae7YsxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YaficMxNEeeKpulby7E2Eg" name="user" type="_9LEZMMxLEeeKpulby7E2Eg" association="_Yae7YMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kkZTgMxNEeeKpulby7E2Eg" memberEnd="_kkZ6ksxNEeeKpulby7E2Eg _kkZ6lcxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kkZ6kMxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kkZ6kcxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kkZ6lcxNEeeKpulby7E2Eg" name="website" type="_QSm1UMxNEeeKpulby7E2Eg" association="_kkZTgMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nGuGUMxNEeeKpulby7E2Eg" memberEnd="_nGuGU8xNEeeKpulby7E2Eg _nGutYsxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nGuGUcxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGuGUsxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nGutYsxNEeeKpulby7E2Eg" name="forum" type="_h8ergMxMEeeKpulby7E2Eg" association="_nGuGUMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oUEqQMxNEeeKpulby7E2Eg" memberEnd="_oUFRUsxNEeeKpulby7E2Eg _oUFRVcxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUFRUMxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oUFRUcxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oUFRVcxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_oUEqQMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p8NswMxNEeeKpulby7E2Eg" memberEnd="_p8Nsw8xNEeeKpulby7E2Eg _p8OT0sxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p8NswcxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p8NswsxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p8OT0sxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_p8NswMxNEeeKpulby7E2Eg"/>
   </packagedElement>
 </uml:Model>
