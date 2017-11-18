@@ -189,14 +189,6 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tonigMxMEeeKpulby7E2Eg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tooJkMxMEeeKpulby7E2Eg" value="1"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_xMhuIsxMEeeKpulby7E2Eg" name="booking" type="_jnFzMMxMEeeKpulby7E2Eg" association="_xMhHEMxMEeeKpulby7E2Eg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xMhuI8xMEeeKpulby7E2Eg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xMhuJMxMEeeKpulby7E2Eg" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Byk6Y8xNEeeKpulby7E2Eg" name="authentication service" type="_a5PSQMxMEeeKpulby7E2Eg" association="_Byk6YMxNEeeKpulby7E2Eg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BylhcMxNEeeKpulby7E2Eg"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BylhccxNEeeKpulby7E2Eg" value="1"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__a678MxLEeeKpulby7E2Eg" name="Database">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_oUFRUsxNEeeKpulby7E2Eg" name="post" type="_ilArIMxMEeeKpulby7E2Eg" association="_oUEqQMxNEeeKpulby7E2Eg">
@@ -206,6 +198,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_p8Nsw8xNEeeKpulby7E2Eg" name="user" type="_9LEZMMxLEeeKpulby7E2Eg" association="_p8NswMxNEeeKpulby7E2Eg">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p8OT0MxNEeeKpulby7E2Eg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p8OT0cxNEeeKpulby7E2Eg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t_UV0cxNEeeKpulby7E2Eg" name="booking" type="_jnFzMMxMEeeKpulby7E2Eg" association="_t_PdUMxNEeeKpulby7E2Eg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t_UV0sxNEeeKpulby7E2Eg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t_UV08xNEeeKpulby7E2Eg" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_CoXvYMxMEeeKpulby7E2Eg" name="Google"/>
@@ -227,18 +223,6 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_toiqAsxMEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_toowoMxMEeeKpulby7E2Eg" name="premium user" type="_-PzzsMxLEeeKpulby7E2Eg" association="_toiqAMxMEeeKpulby7E2Eg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_xMhHEMxMEeeKpulby7E2Eg" memberEnd="_xMhuIsxMEeeKpulby7E2Eg _xMhuJcxMEeeKpulby7E2Eg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xMhuIMxMEeeKpulby7E2Eg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xMhuIcxMEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_xMhuJcxMEeeKpulby7E2Eg" name="premium user" type="_-PzzsMxLEeeKpulby7E2Eg" association="_xMhHEMxMEeeKpulby7E2Eg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_Byk6YMxNEeeKpulby7E2Eg" memberEnd="_Byk6Y8xNEeeKpulby7E2Eg _BylhcsxNEeeKpulby7E2Eg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Byk6YcxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Byk6YsxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_BylhcsxNEeeKpulby7E2Eg" name="premium user" type="_-PzzsMxLEeeKpulby7E2Eg" association="_Byk6YMxNEeeKpulby7E2Eg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_QSm1UMxNEeeKpulby7E2Eg" name="Website">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_kkZ6ksxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_kkZTgMxNEeeKpulby7E2Eg">
@@ -276,4 +260,11 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_p8OT0sxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_p8NswMxNEeeKpulby7E2Eg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t_PdUMxNEeeKpulby7E2Eg" memberEnd="_t_UV0cxNEeeKpulby7E2Eg _t_UV1MxNEeeKpulby7E2Eg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t_TuwMxNEeeKpulby7E2Eg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t_UV0MxNEeeKpulby7E2Eg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t_UV1MxNEeeKpulby7E2Eg" name="database" type="__a678MxLEeeKpulby7E2Eg" association="_t_PdUMxNEeeKpulby7E2Eg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dj5RkMxOEeeKpulby7E2Eg"/>
 </uml:Model>
