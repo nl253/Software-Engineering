@@ -26,23 +26,23 @@ using third party authentication service, such as, Facebook or Google.
 - Once authenticated, premium customers should be able to browse the diary
 of the Sky Taxi Company to check for availability.
 
-- They should be able to make bookings, amend bookings, and cancel bookings. 
+- [X] They should be able to make bookings, amend bookings, and cancel bookings. 
 
-- For each transaction a confirmation is sent to the customer.
+- [X] For each transaction a confirmation is sent to the customer.
 
-- Every booking needs to be paid before a confirmation is sent.
+- [X] Every booking needs to be paid before a confirmation is sent.
 
-- Amendments and cancellations require a fee to be paid.
+- [X] Amendments and cancellations require a fee to be paid.
 
-- Payment via credit/debit card or bank transfer.
+- [X] Payment via credit/debit card or bank transfer.
 
 - During periods of low demand the taxi company offers discounts to its
 customers for new bookings.
 
-- the taxi company also provides is the ability for customers to share
+- [X] the taxi company also provides is the ability for customers to share
 trips to and from airports to reduce costs.
 
-- This involves customers interacting between themselves through a forum in
+- [X] This involves customers interacting between themselves through a forum in
 order to negotiate times for their trips, the taxi company doesn't involve
 itself in any negotiation.
 
@@ -54,11 +54,11 @@ to 5 alternative addresses, and whether he/she is part of an organisation.
 - The premium customer is allowed 5 bookings at most. 
 
 - The information related to a booking should include:
-  + the information related to a premium customer making the booking, 
-  + a pickup and destination addresses, 
-  + the date and time of the booking, 
-  + the fee, 
-  + and a reference number.
+  + [X] the information related to a premium customer making the booking, 
+  + [X] a pickup and destination addresses, 
+  + [X] the date and time of the booking, 
+  + [X] the fee, 
+  + [X] and a reference number.
 
 - the premium customer can authenticate either using
   + [X] Facebook or 
@@ -71,20 +71,20 @@ to 5 alternative addresses, and whether he/she is part of an organisation.
 - The database keeps a record of:
   + [X] premium customers, 
   + [X] bookings and 
-  + organisations, 
+  + [X] organisations, 
 
 **NOTE**<br>
 You do not need to represent the operations on the attributes of the database.
 
 - Banks are identified by:
-  + name, 
-  + sort code 
-  + account number, 
+  + [X] name, 
+  + [X] sort code 
+  + account number ???, 
 
 - Credit cards are identified by:
-  + card number, 
-  + expire date, 
-  + name and address of the owner
+  + [X] card number, 
+  + [X] expire date, 
+  + [X] name and address of the owner
 
 ------------------------------------------------------------
 
