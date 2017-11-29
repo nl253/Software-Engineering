@@ -541,7 +541,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_oUPCUcxNEeeKpulby7E2Eg"/>
       <element xmi:type="uml:Association" href="nl253_TaxiCumulus.uml#_oUEqQMxNEeeKpulby7E2Eg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oUPCUsxNEeeKpulby7E2Eg" points="[420, -160, -643984, -643984]$[280, -152, -643984, -643984]$[280, -214, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oUPCUsxNEeeKpulby7E2Eg" points="[420, -160, -643984, -643984]$[280, -160, -643984, -643984]$[280, -214, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oUlnoMxNEeeKpulby7E2Eg" id="(0.0,0.4)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oUlnocxNEeeKpulby7E2Eg" id="(0.8791208791208791,0.9880239520958084)"/>
     </edges>
@@ -1616,6 +1616,31 @@
     <children xmi:type="notation:Shape" xmi:id="_qjJRkcOUEeefZct4e10tWw" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_qjJRksOUEeefZct4e10tWw" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qjJRk8OUEeefZct4e10tWw" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_0O9f4NUJEeey55riyw6fgw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_0O-G8NUJEeey55riyw6fgw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="nl253_TaxiCumulus.uml#_0OjQMNUJEeey55riyw6fgw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0O9f4dUJEeey55riyw6fgw" x="14" y="10" width="101" height="507"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FCIiINUKEeey55riyw6fgw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_FCIiItUKEeey55riyw6fgw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="nl253_TaxiCumulus.uml#_FCHUANUKEeey55riyw6fgw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FCIiIdUKEeey55riyw6fgw" x="254" y="26"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_MKH4gNUKEeey55riyw6fgw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_MKIfkNUKEeey55riyw6fgw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="nl253_TaxiCumulus.uml#_MKHRcNUKEeey55riyw6fgw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MKH4gdUKEeey55riyw6fgw" x="414" y="26"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NS8hwNUKEeey55riyw6fgw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_NS8hwtUKEeey55riyw6fgw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="nl253_TaxiCumulus.uml#_NS7ToNUKEeey55riyw6fgw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NS8hwdUKEeey55riyw6fgw" x="574" y="26"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OwVs0dUKEeey55riyw6fgw" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OwWT4NUKEeey55riyw6fgw" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="nl253_TaxiCumulus.uml#_OwVFwNUKEeey55riyw6fgw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OwVs0tUKEeey55riyw6fgw" x="734" y="26"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qjJRlMOUEeefZct4e10tWw"/>
       </children>
       <element xmi:type="uml:Interaction" href="nl253_TaxiCumulus.uml#_qjCj4MOUEeefZct4e10tWw"/>

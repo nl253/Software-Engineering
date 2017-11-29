@@ -8,7 +8,6 @@
 4. Under File name enter the name of your model name [yourlogin]_ClassDiagram. 
 5. Next.  Under Root model element name enter [yourlogin]_ClassDiagram. 
 6. Select Class Diagram. 
-7. Finish.
 
 ## Problem Description
 
@@ -92,12 +91,13 @@ You do not need to represent the operations on the attributes of the database.
 
 ### Use Case Diagram
 
-+ In your UML use case diagram, the system should be clear
-identified, together with the use cases associated with that system,
-any actor that should interact with the system, and the relationships
-between these.
+- [X] In your UML use case diagram, the system should be clear
+identified, 
 
-+ For each of the use cases identified in the UML use case diagram,
+- [ ] together with the use cases associated with that system, any actor
+that should interact with the system, and the relationships between these.
+
+- [ ] For each of the use cases identified in the UML use case diagram,
 description of the use cases should also be specified according to the
 template provided.
 
@@ -114,25 +114,18 @@ template provided.
 
 ### Sequence Diagram
 
-1. A UML sequence diagram representing a premium customer making a booking. 
+#### premium customer making a booking. 
 
-- You may well assume that the premium customer has been authenticated.
-
-- As part of this scenario consider that the premium customer browses the
-diary before making the booking.
-
+- assume that the premium customer has been authenticated.
+- the premium customer browses the diary before making the booking.
 - If payment is successful premium customer should receive a confirmation.
 
-2. A UML sequence diagram representing the premium customer cancelling
-a booking.
+#### premium customer cancelling a booking.
 
-3. A UML sequence diagram describing the use case that captures the sequence
-of actions related to cancelling a booking (or similar use case in your
-diagram that captures this service).
+#### cancelling a booking (or similar use case in your diagram that captures this service).
 
 - Check whether the UML sequence diagram of the design (UML class diagram)
-conforms with the UML sequence diagram of the requirements (UML use case
-diagram).
+conforms with the UML sequence diagram of the requirements (UML use case diagram).  
 
 - Made the required changes to the design sequence diagram to make sure it
 conforms to sequence diagram of the requirements.

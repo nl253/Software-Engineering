@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qa57kMOUEeefZct4e10tWw" name="nl253_TaxiCumulus" visibility="package">
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_qjCj4MOUEeefZct4e10tWw" name="Interaction1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qjCj4MOUEeefZct4e10tWw" name="Interaction1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A78v4NUKEeey55riyw6fgw" name="" type="_SgkM4MOVEeefZct4e10tWw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FCHUAdUKEeey55riyw6fgw" name="" type="_QSm1UMxNEeeKpulby7E2Eg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MKHRcdUKEeey55riyw6fgw" name="" type="_HIM0AM-qEeev27WSwns2Hg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NS76sNUKEeey55riyw6fgw" name="" type="_FWkzMNBLEeeaEfgMK1pAEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OwVs0NUKEeey55riyw6fgw" name="" type="_p9Y_ENBLEeeaEfgMK1pAEQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_0OjQMNUJEeey55riyw6fgw" name="Lifeline1" represents="_A78v4NUKEeey55riyw6fgw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_FCHUANUKEeey55riyw6fgw" name="" represents="_FCHUAdUKEeey55riyw6fgw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_MKHRcNUKEeey55riyw6fgw" name="" represents="_MKHRcdUKEeey55riyw6fgw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_NS7ToNUKEeey55riyw6fgw" name="" represents="_NS76sNUKEeey55riyw6fgw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_OwVFwNUKEeey55riyw6fgw" name="" represents="_OwVs0NUKEeey55riyw6fgw"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_SgkM4MOVEeefZct4e10tWw" name="Premium Customer"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_UipZYMOVEeefZct4e10tWw" name="TaxiCumulus">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_lTSsEMOVEeefZct4e10tWw" name="log in using prefered auth method">
