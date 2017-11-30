@@ -6,7 +6,8 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_MKHRcdUKEeey55riyw6fgw" name="" type="_HIM0AM-qEeev27WSwns2Hg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_NS76sNUKEeey55riyw6fgw" name="" type="_FWkzMNBLEeeaEfgMK1pAEQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OwVs0NUKEeey55riyw6fgw" name="" type="_p9Y_ENBLEeeaEfgMK1pAEQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_0OjQMNUJEeey55riyw6fgw" name="Lifeline1" represents="_A78v4NUKEeey55riyw6fgw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pajTUNXTEee3jbs4DIRO_w" name="" type="_JjCxkMxDEeeKpulby7E2Eg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_0OjQMNUJEeey55riyw6fgw" name="Lifeline1" represents="_pajTUNXTEee3jbs4DIRO_w"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_FCHUANUKEeey55riyw6fgw" name="" represents="_FCHUAdUKEeey55riyw6fgw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_MKHRcNUKEeey55riyw6fgw" name="" represents="_MKHRcdUKEeey55riyw6fgw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_NS7ToNUKEeey55riyw6fgw" name="" represents="_NS76sNUKEeey55riyw6fgw"/>
@@ -21,7 +22,7 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZPJP4MVlEees7MOKKEy7ww" name="ExtensionPoint4"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iKumoMVsEees7MOKKEy7ww" name="ExtensionPoint5"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_wWzc0MOVEeefZct4e10tWw" name="browse services"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wWzc0MOVEeefZct4e10tWw" name="browse services offered by TaxiCumulus"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_0WnhUMOVEeefZct4e10tWw" name="find available services">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZR1P4MOWEeefZct4e10tWw" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bqrWkMOWEeefZct4e10tWw" name="ExtensionPoint2"/>
