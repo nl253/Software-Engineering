@@ -114,26 +114,27 @@ template provided.
 
 ### Sequence Diagram
 
-#### premium customer making a booking. 
+#### premium customer making a booking
 
-- assume that the premium customer has been authenticated.
-- the premium customer browses the diary before making the booking.
-- If payment is successful premium customer should receive a confirmation.
+Assume that the premium customer has been authenticated.
 
-#### premium customer cancelling a booking.
+- [ ] the premium customer browses the diary before making the booking.
+- [ ] If payment is successful premium customer should receive a confirmation.
 
-#### cancelling a booking (or similar use case in your diagram that captures this service).
+#### premium customer cancelling a booking
 
-- Check whether the UML sequence diagram of the design (UML class diagram)
+#### cancelling a booking (or similar use case in your diagram that captures this service)
+
+- [ ] Check whether the UML sequence diagram of the design (UML class diagram)
 conforms with the UML sequence diagram of the requirements (UML use case diagram).  
 
-- Made the required changes to the design sequence diagram to make sure it
+- [ ] Made the required changes to the design sequence diagram to make sure it
 conforms to sequence diagram of the requirements.
 
-- This UML sequence diagram of the requirements should be included in the
+- [ ] This UML sequence diagram of the requirements should be included in the
 Papyrus Model of the UML use case diagram ([yourlogin]_UseCaseDiagram).
 
-- The reason for creating a new Papyrus Model for the UML sequence diagram
+The reason for creating a new Papyrus Model for the UML sequence diagram
 is that you may have to change the original UML class diagram in order to
 accommodate the behaviours mentioned above.
 
