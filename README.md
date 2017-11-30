@@ -94,23 +94,23 @@ You do not need to represent the operations on the attributes of the database.
 - [X] In your UML use case diagram, the system should be clear
 identified, 
 
-- [ ] together with the use cases associated with that system, any actor
+- [X] together with the use cases associated with that system, any actor
 that should interact with the system, and the relationships between these.
 
-- [ ] For each of the use cases identified in the UML use case diagram,
+- [X] For each of the use cases identified in the UML use case diagram,
 description of the use cases should also be specified according to the
 template provided.
 
 ### Class Diagram
 
-+ In your UML class diagram, classes should be clear identified, together with the associations between them.
+- [X] In your UML class diagram, classes should be clear identified, together with the associations between them.
 
 + For each class, make sure to include:
-  - key attributes 
-  - operations, 
+  - [X] key attributes 
+  - [X] operations, 
   - for each association identify:
-    * main roles 
-	* multiplicity
+	* [X] multiplicity
+    * main roles ???
 
 ### Sequence Diagram
 
