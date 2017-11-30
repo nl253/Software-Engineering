@@ -78,7 +78,7 @@ You do not need to represent the operations on the attributes of the database.
 - Banks are identified by:
   + [X] name, 
   + [X] sort code 
-  + account number ???, 
+  + [ ] account number ???, 
 
 - Credit cards are identified by:
   + [X] card number, 
@@ -110,7 +110,7 @@ template provided.
   - [X] operations, 
   - for each association identify:
 	* [X] multiplicity
-    * main roles ???
+    * [ ] main roles ???
 
 ### Sequence Diagram
 
