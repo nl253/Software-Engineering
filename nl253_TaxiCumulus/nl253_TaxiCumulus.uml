@@ -40,7 +40,6 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_iE0vgMOWEeefZct4e10tWw" name="pay using prefered payment method">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VnMxcMVoEees7MOKKEy7ww" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fD4xgMVsEees7MOKKEy7ww" name="ExtensionPoint2"/>
-      <include xmi:type="uml:Include" xmi:id="_drWuMMxEEeeKpulby7E2Eg" addition="_C-udoMVsEees7MOKKEy7ww"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_4ZRpAMOWEeefZct4e10tWw" name="make posts"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_C5xzUMOXEeefZct4e10tWw" name="read posts"/>
@@ -51,7 +50,7 @@
       <generalization xmi:type="uml:Generalization" xmi:id="_EHBGgM-gEeehdaUQXRfWag" general="_iE0vgMOWEeefZct4e10tWw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_GGm_sM-gEeehdaUQXRfWag" name="Pay using a credit or a debit card">
-      <generalization xmi:type="uml:Generalization" xmi:id="_Iw7Q4M-gEeehdaUQXRfWag" general="_iE0vgMOWEeefZct4e10tWw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_43svENXZEeeZKOoYdmOA1g" general="_iE0vgMOWEeefZct4e10tWw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Realization" xmi:id="_Xsn0IM-gEeehdaUQXRfWag" client="_fXtwoMVlEees7MOKKEy7ww" supplier="_lTSsEMOVEeefZct4e10tWw"/>
   </packagedElement>
@@ -483,6 +482,13 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4UXActBSEeeaEfgMK1pAEQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_4UXngdBSEeeaEfgMK1pAEQ" name="database" type="_HIM0AM-qEeev27WSwns2Hg" association="_4UXAcNBSEeeaEfgMK1pAEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0DTzANXZEeeZKOoYdmOA1g" memberEnd="_0DW2UNXZEeeZKOoYdmOA1g _0DW2UdXZEeeZKOoYdmOA1g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0DWPQNXZEeeZKOoYdmOA1g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0DWPQdXZEeeZKOoYdmOA1g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0DW2UNXZEeeZKOoYdmOA1g" name="receive transaction confirmation" type="_C-udoMVsEees7MOKKEy7ww" association="_0DTzANXZEeeZKOoYdmOA1g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0DW2UdXZEeeZKOoYdmOA1g" name="pay using prefered payment method" type="_iE0vgMOWEeefZct4e10tWw" association="_0DTzANXZEeeZKOoYdmOA1g"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yw6dsM-cEeehdaUQXRfWag">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yw7r0M-cEeehdaUQXRfWag" source="http://www.eclipse.org/uml2/2.0.0/UML">
