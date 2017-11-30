@@ -1,4 +1,4 @@
-# CO510  Modelling Assessment:<br> UML Portfolio 2 (Class Diagrams)
+# CO510 Modelling Assessment:<br> UML Portfolio
 
 ## Creating a project and a UML model:
 
